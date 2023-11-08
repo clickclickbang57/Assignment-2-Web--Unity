@@ -248,7 +248,7 @@ footer{
  
     
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     body{
         justify-content: center;
     }
@@ -266,14 +266,17 @@ footer{
         font-size: 4vw;
     }
     .video{
-        grid-template-columns: 1fr;
-        align-items: center;
-        justify-content: center;
+      grid-template-columns: 1fr;
         margin-left: 15px;
+        width: 100%;
+        height: auto;
     }
     .video p {
+        grid-template-columns: 1fr;
         padding-left: 0px; 
         font-size: auto;
+        width: 100%;
+        height: auto;
 
     }
     .logo {
@@ -291,6 +294,10 @@ footer{
         width: 100%;
         
        
+    }
+    .gray-background h3 {
+        font-size: 3em;
+              text-align: center;
     }
     .white-background {
        display: block;
@@ -337,4 +344,8 @@ footer{
 footer{
     width: 100%;
 }
+h3{
+    font-size: auto;
+}
+
 }
