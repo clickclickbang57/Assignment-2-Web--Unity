@@ -252,6 +252,15 @@ div>a {
     width: 100%;
     height: 500px;
 }
+.resources{
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.resources h3{
+    color: black;
+}
 footer{
     background-color: black;
  
